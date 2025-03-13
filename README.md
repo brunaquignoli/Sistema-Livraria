@@ -16,7 +16,7 @@ Sistema de Livraria implementada em Java com comunicação com banco de dados no
 
 
 # LIVRO
-    atributos
+    atributos e métodos
 - livro: String
 - autor: String
 - genero: String
