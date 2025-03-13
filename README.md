@@ -1,13 +1,13 @@
 # Sistema-Livraria
 Sistema de Livraria implementada em Java com comunicação com banco de dados no MySQL.
 
-# main classe
-BIBLIOTECA
 
-# atributos
+# BIBLIOTECA
+> Main classe
+
+    atributos e métodos
 - livros[lista]
-
-# métodos
+-----------------------------------
 + adicionarLivro(livro) 
 + removerLivro(titulo: String) 
 + listarLivros(): void         
@@ -15,17 +15,15 @@ BIBLIOTECA
 + devolverLivro(titulo: String)
 
 
-LIVRO
-
-# atributos
+# LIVRO
+    atributos
 - livro: String
 - autor: String
 - genero: String
 - classificação: String
 - paginas: int
 - quantidade: int
-
-# métodos
+-----------------------------------
 + getTitulo(): String
 + getAutor(): String
 + getGenero(): String
@@ -35,10 +33,10 @@ LIVRO
 
 
 
-BancoDeDados
-# atributos
+# BancoDeDados
+    atributos e métodos
 - conexão: // códigos
-# métodos
+-----------------------------------
 + conectar(): void
 + inserirLivro(livro: String): void
 + removerLivro(livro: String): void
